@@ -1,0 +1,10 @@
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+port = 8501
+cookieSecret = d4a6f7b301c2e5a8f9c1b7e0d3a5c9f2 
+serverHealthCheckEnabled = true
+serverHealthCheckPath = "/healthz"
+serverHealthCheckPeriod = 1
+serverHealthCheckTimeout = 300
